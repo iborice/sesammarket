@@ -1,0 +1,66 @@
+Gestion du fond de caisse et cl�ture:
+La tenue de la caisse passe aussi par la gestion du fond de caisse et la cl�ture qui doivent �tre enti�rement g�r�es par le logiciel. 
+Le logiciel doit par ailleurs offrir des opportunit�s de saisies et calculs automatiques. De sorte � minimiser le risque d�erreurs 
+tout en assurant l�int�grit� des recettes
+
+L�encaissement
+Il s�agit de la principale t�che du logiciel de gestion de point de vente L�encaissement doit par ailleurs permettre une application de prix au
+cas par cas. Cette op�ration doit se d�rouler en toute s�curit� en minimisant les risques d�intrusion dans le syst�me informatique.
+
+
+Gestion des pes�es:
+Les entreprises effectives dans l�alimentaire sont confront�es � l�achat au poids. La gestion des pes�es en caisse repr�sente donc un atout non n�gligeable pour un logiciel de gestion de point de vente
+Un logiciel de gestion de point de vente (POS) permet de g�rer les encaissements au comptoir des points de vente de l�entreprise. G�n�ralement, un logiciel POS comprend :
+
+Modes de r�glements multiples:
+Les paiements se font toujours plus selon de nombreux modes. Il peut s�agir d�esp�ces, de ch�ques, de cartes bancaires, 
+voire depuis peu de smartphones. Un syst�me POS complet se doit de prendre en compte une multitude de modes de paiement.
+
+Gestion des avoirs:
+Li�e � la gestion de la fid�lit�, la gestion des avoirs est un autre enjeu majeur de la fid�lisation. 
+Ces avoirs peuvent ainsi �tre issus des points de fid�lit�, mais aussi des retours produits ou encore des promotions. 
+Il convient alors de disposer d�un logiciel poss�dant une telle fonctionnalit�.
+
+Gestion de la fid�lit�:
+Toujours li� � la satisfaction client, la gestion de la fid�lit� est un enjeu majeur pour un logiciel POS. 
+Il s�agit pour le logiciel de prendre en compte le cumul des points de fid�lit�, la recherche des cartes par nom, r�gion, e-mail, 
+code-postal, etc. Sans oublier le report des points accumul�s sur le ticket de caisse.
+
+Reprise de pi�ces:
+Tout commerce se doit de faire face aux possibilit�s de retours produits. Votre logiciel de gestion de point de vente doit donc prendre en 
+charge cette fonctionnalit�. En proposant l��dition de tickets de retours et de remboursements. 
+L�enjeu est bien �videmment la satisfaction client.
+
+Maquettage personnalis� des tickets:
+Votre enseigne est unique et cette singularit� doit �tre visible partout, y compris sur vos tickets de caisse. 
+La possibilit� de coucher votre logo et d�autres informations personnalis�es sur vos tickets de caisse vous offre un atout marketing ind�niable.
+
+Saisie des tickets de caisse:
+Outre l�encaissement, la saisie des tickets de caisse repr�sente une op�ration obligatoire pour un logiciel de gestion de point de vente. 
+La r��dition, l�annulation ou la mise en attente d�un ticket offre une vue d�ensemble de vos activit�s. Sans oublier le confort du client, 
+qui utilise bien souvent ce ticket � des fins de gestion.
+
+Analyse de l�activit� commerciale:
+Le monitoring de votre activit� commerciale permet de prendre les d�cisions justes en temps opportun. Les r�sultats financiers et les 
+statistiques commerciales par produit pourront �tre exploit�es � des fins marketing. Il en est de m�me des donn�es clients.
+
+Gestion des articles
+Un magasin est l�objet de plusieurs r�f�rences voire de sous-r�f�rences qu�il convient de g�rer. Un logiciel de gestion de point de vente
+Un logiciel de gestion de point de vente (POS) permet de g�rer les encaissements au comptoir des points de vente de l�entreprise. G�n�ralement, un logiciel POS comprend :
+adapt� doit permettre la saisie des codes-barres via douchettes. Un traitement automatis� desdits codes-barres permet par ailleurs de mettre 
+en place un meilleur suivi des sous-r�f�rences telles que les tailles ou encore les couleurs produits
+
+
+Traitement des entr�es et sorties
+Pour assurer une facturation et une comptabilit�
+Organisation permettant de retracer tous les mouvements des recettes et des d�penses de l�entreprise.
+ fiables, une gestion informatis�e est de mise. Le traitement automatis� des entr�es et sorties offre une circulation optimale et 
+s�curis�e des donn�es clients. Ce traitement offre par ailleurs un gain de temps certains aux �quipes, assurant de meilleures performances.
+
+
+
+Prevoir le cas ou le systeme local ne fourni pas les bons chiffres au systè global (les vendeuses doivent imprimer les ventes journalières qui seront constamment comparées à celles du système global)
+
+gerer le cas ou les paiements en ligne ne se passe pas bien
+gerer la mise a jour des produits
+enregistrer une vente partiellement payée et gerer l annulation ou la suite du processus

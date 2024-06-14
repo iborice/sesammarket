@@ -1,0 +1,24 @@
+{
+    "auth":{
+        "title":"Sign In",
+        "username": "Username",
+        "password": "Password",
+        "forgot_password": "Forgot password"
+    },
+    "Welcome": {
+      "text": "Welcome to this React Internationalization App",
+      "logout": "logout",
+      "title":"Connected"
+    },
+    "payment":{
+      "remaining_amount": "Remaining amount",
+      "amount_paid": "Amount paid",
+      "details": "Payment details"
+    },
+    "header":{
+      "home":"Home",
+      "sales":"Sales",
+      "products": "Products",
+      "close":"Close"
+    }
+}

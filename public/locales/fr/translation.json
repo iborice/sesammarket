@@ -1,0 +1,24 @@
+{
+    "auth":{
+        "title":"Se connecter",
+        "username": "Nom d'utilisateur",
+        "password": "Mot de passe",
+        "forgot_password": "Mot de passe oublie"
+    }, 
+    "Welcome": {
+      "text": "Bienvenue sur cette application d'internationalisation React",
+      "logout": "Se deconnecter",
+      "title":"Connecté"
+    },
+    "payment":{
+      "remaining_amount": "Montant restant",
+      "amount_paid": "Montant versé",
+      "details": "Details de paiements"
+    },
+    "header":{
+      "home":"Accueil",
+      "sales":"Ventes",
+      "products": "Produits",
+      "close":"Fermer"
+    }
+}
