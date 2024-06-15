@@ -1,5 +1,5 @@
 import {React,  Suspense} from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import ProtectedRoute from './components/PrivateRoute.jsx';
 import Login from './components/auth/Login.jsx';
 import Home from './components/Home.jsx';

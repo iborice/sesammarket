@@ -3,10 +3,14 @@ const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
 const bcrypt = require('bcryptjs'); 
 const isDev = require('electron-is-dev');
+const { updateElectronApp } = require('update-electron-app');
+updateElectronApp(); // additional configuration options available
 
+console.log(process.resourcesPath);
 const dbPath = isDev
-          ? path.join(__dirname, '../../db/billing.db') // my root folder if in dev mode
-          : path.join(process.resourcesPath, '../db/billing.db');
+          ? './db/billing.db'// my root folder if in dev mode
+          : path.join(process.resourcesPath, 'db/billing.db');
+  
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) {
@@ -18,10 +22,28 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    icon: path.join(__dirname, 'icon.ico'),
     webPreferences: {
-      preload: isDev ? path.join(__dirname, 'preload.js') : path.join(app.getAppPath(), './build/preload.js'),
+      nodeIntegration: true,
+      //preload: isDev ? path.join(__dirname, 'preload.js') : path.join(app.getAppPath(), './build/preload.js'),
+      preload: path.join(__dirname, 'preload.js') 
     },
   });
+
+  // const mainWindow = new BrowserWindow({
+  //   width: 800,
+  //   height: 600,
+  //   backgroundColor: "#263238",
+  //   show: false, on affiche pas la fenetre
+  //   webPreferences: {
+  //     preload: path.join(__dirname, 'preload.js'),
+  //   }
+  // });
+  
+  // mainWindow.once('ready-to-show', () => {
+  //   mainWindow.show(); on attend que la feetre soit prete avant de tout afficher
+  //   mainWindow.focus();
+  // });
 
   // and load the index.html of the app.
   if (MAIN_WINDOW_VITE_DEV_SERVER_URL) {
@@ -30,7 +52,7 @@ const createWindow = () => {
     mainWindow.loadFile(path.join(__dirname, `../renderer/${MAIN_WINDOW_VITE_NAME}/index.html`));
   }
 
-  // Open the DevTools.
+  // Open the DevTools. app.isPackaged
   isDev 
   ? mainWindow.webContents.openDevTools() : "";
 };

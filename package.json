@@ -41,6 +41,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "bcryptjs": "^2.4.3",
     "electron-is-dev": "^2.0.0",
+    "electron-router-dom": "^1.0.5",
     "electron-squirrel-startup": "^1.0.0",
     "i18next": "^23.10.0",
     "i18next-browser-languagedetector": "^7.2.0",
@@ -53,6 +54,11 @@
     "react-redux": "^9.1.0",
     "react-router-dom": "^6.22.1",
     "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "update-electron-app": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iborice/sesammarket.git"
   }
 }

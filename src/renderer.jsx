@@ -28,7 +28,7 @@
 
 // import './index.css';
 
-// console.log('👋 This message is being logged by "renderer.js", included via Vite');
+console.log('👋 This message is being logged by "renderer.js", included via Vite');
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
@@ -43,7 +43,7 @@ const root = ReactDOM.createRoot(el);
 root.render(
     <React.StrictMode>
         <Provider store={store}>
-            <App />
+            <App/>
         </Provider>
     </React.StrictMode>
 );

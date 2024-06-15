@@ -23,6 +23,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import ListItemText from '@mui/material/ListItemText';
 import { useTranslation } from 'react-i18next';
 import i18n from  'i18next';
+import { image_path } from '../../constants';
 
 const pages = [
     { code: 'HOME', label: 'Home' },
@@ -33,8 +34,8 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 
 const lngs = [
-    { code: 'en', nativeName: 'English', flag:"../../../storage/img/england.png" },
-    { code: 'fr', nativeName: 'Francais', flag:"../../../storage/img/france.png" },
+    { code: 'en', nativeName: 'English', flag:image_path+"/england.png" },
+    { code: 'fr', nativeName: 'Francais', flag:"/assets/img/france.png" },
 ];
 
 function Header1(props) {
@@ -44,7 +45,7 @@ function Header1(props) {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [lanEl, setLanEl] = React.useState(null);
   const [state, setState] = React.useState("HOME");
-  const [lan,setLan] = React.useState("../../../storage/img/france.png");
+  const [lan,setLan] = React.useState(image_path+"/france.png");
    
   const open = Boolean(anchorEl);
   const openL = Boolean(lanEl);
@@ -280,7 +281,7 @@ function Header1(props) {
                     
                     <IconButton onClick={handleOpenUserMenu}>
                         
-                            <Avatar alt="Remy Sharp" src="../../../storage/img/avatar.png" sx={{ width:33,height:33}} />
+                            <Avatar alt="Remy Sharp" src={image_path+"/avatar.png"} sx={{ width:33,height:33}} />
                         
                     </IconButton>
                 </Tooltip>

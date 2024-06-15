@@ -20,6 +20,7 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 import {  setAmount } from '../../slices/saleSlice';
 import { IMaskInput } from 'react-imask';
+import { image_path } from '../../constants';
 
 const TextMaskCustom = React.forwardRef(function TextMaskCustom(props, ref) {
   const { onChange, ...other } = props;
@@ -164,6 +165,8 @@ export default function BasicTabs() {
     setValue(newValue);
   };
 
+
+
   const handleChange1 = (event) => {
     setValues({
       ...values,
@@ -200,10 +203,10 @@ export default function BasicTabs() {
           },
         }}
       >
-        <Tab icon={<Avatar variant="square" sx={{ width: 60, height: 45 }} alt="CASH" src="../../../storage/img/CASH.png" />} {...a11yProps(0)} />
-        <Tab icon={<Avatar variant="square" sx={{ width: 60, height: 45 }} alt="OM" src="../../../storage/img/OM.png" />} {...a11yProps(1)}/>
-        <Tab icon={<Avatar variant="square" sx={{ width: 60, height: 45 }} alt="MOMO" src="../../../storage/img/MOMO.JPG" />}  {...a11yProps(2)} />
-        <Tab icon={<Avatar variant="square" sx={{ width: 60, height: 45 }} alt="VM" src="../../../storage/img/VM.png" />}  {...a11yProps(3)} />
+        <Tab icon={<Avatar variant="square" sx={{ width: 60, height: 45 }} alt="CASH" src={image_path+'/CASH.png'} />} {...a11yProps(0)} />
+        <Tab icon={<Avatar variant="square" sx={{ width: 60, height: 45 }} alt="OM" src={image_path+"/OM.png"} />} {...a11yProps(1)}/>
+        <Tab icon={<Avatar variant="square" sx={{ width: 60, height: 45 }} alt="MOMO" src={image_path+"/MOMO.png"} />}  {...a11yProps(2)} />
+        <Tab icon={<Avatar variant="square" sx={{ width: 60, height: 45 }} alt="VM" src={image_path+"/VM.png"} />}  {...a11yProps(3)} />
       </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>

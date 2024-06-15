@@ -13,6 +13,7 @@ import {
 import PrintIcon from '@mui/icons-material/Print';
 import TicketTable from "./TicketTable";
 import { styled, createTheme, ThemeProvider } from '@mui/material/styles';
+import { image_path } from "../../constants";
 
 const options = [
     { label: "Sesame finance", value: "SESAME" },
@@ -84,7 +85,7 @@ export default function Ticket() {
                 <Item>
                     <Box fontSize={10}>Merci pour votre achat</Box>
                     <Box sx={{display:"flex", justifyContent:"center", width:"100%"}} >
-                        <Avatar variant="square" sx={{ width: 70, height: 50 }} alt="CASH" src="../../../storage/img/codebarre.png" />
+                        <Avatar variant="square" sx={{ width: 70, height: 50 }} alt="CASH" src={image_path+"/codebarre.png"} />
                     </Box>
                 </Item>
             </Box>
