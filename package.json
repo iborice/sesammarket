@@ -1,7 +1,7 @@
 {
   "name": "billing",
   "productName": "billing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My Electron application description",
   "main": ".vite/build/main.js",
   "scripts": {
@@ -60,6 +60,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iborice/sesammarket.git"
+    "url": "https://github.com/iborice/sesammarket.git"
   }
 }

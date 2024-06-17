@@ -107,7 +107,7 @@ export default function SignIn() {
 
     return (
         <ThemeProvider theme={defaultTheme}>
-            <Container component="main" maxWidth="xs">
+            {/* <Container component="main" maxWidth="xs">
                 <CssBaseline />
                 <Box
                 sx={{
@@ -169,18 +169,7 @@ export default function SignIn() {
                     >
                     {t('auth.title')}
                     </Button>
-                    {/* <Grid container>
-                    <Grid item xs>
-                        <Link href="#" variant="body2">
-                        Forgot password?
-                        </Link>
-                    </Grid>
-                    <Grid item>
-                        <Link href="#" variant="body2">
-                        {"Don't have an account? Sign Up"}
-                        </Link>
-                    </Grid>
-                    </Grid> */}
+                    
                 </Box>
                 </Box>
                 <Copyright sx={{ mt: 8, mb: 4 }} />
@@ -190,7 +179,7 @@ export default function SignIn() {
                 >
                     <CircularProgress color="inherit" />
                 </Backdrop>
-            </Container>
+            </Container> */}
         </ThemeProvider>
     );
 }
