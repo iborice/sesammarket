@@ -6,7 +6,6 @@ const isDev = require('electron-is-dev');
 const { updateElectronApp } = require('update-electron-app');
 updateElectronApp(); // additional configuration options available
 
-console.log(process.resourcesPath);
 const dbPath = isDev
           ? './db/billing.db'// my root folder if in dev mode
           : path.join(process.resourcesPath, 'db/billing.db');
