@@ -70,7 +70,8 @@ module.exports = {
           owner: 'iborice',
           name: 'sesammarket'
         },
-        prerelease: true
+        prerelease: false,
+        draft: true
       }
     }
   ]
